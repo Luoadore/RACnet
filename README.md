@@ -11,7 +11,7 @@ This is the official implementation for paper ["Rethinking temporal self-similar
 ## Introduction
 We rethink how a temporal self-similarity matrix (TSM) can be utilized for counting repetitive actions and propose a framework (RACnet) that learns embeddings and **predicts action start probabilities at full temporal resolution**. The number of repeated actions is then inferred from the action start probabilities. We propose a novel loss based on a **generated reference TSM**, which enforces that the self-similarity of the learned frame-wise embeddings is consistent with the self-similarity of repeated actions. 
 
-[RACnet](figures/RACnet.jpg)
+![RACnet](figures/RACnet.jpg)
 
 ### Main results on three datasets
 | Datasets  |  MAE⬇️  |  OBO⬆️  | 

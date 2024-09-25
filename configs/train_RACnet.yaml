@@ -1,0 +1,33 @@
+config_name: 'train-RACnet'
+path:
+    root: 'root_path_to_folder'
+    train_video_dir: 'train'
+    train_label: 'train.csv'
+    valid_video_dir: 'valid'
+    valid_label: 'valid.csv'
+    test_video_dir: 'test'
+    test_label: 'test.csv'
+    checkpoint: ''
+    pretrain: '' 
+    save: 'save_name'
+model:
+    num_stages: 4
+    num_layers: 10
+    num_f_maps: 64
+train:
+    epochs: 200
+    lr: 6.4e-5 
+    lr_decay: 'multisteplr' 
+    batch_size: 16
+    mae_error: False
+    tsm_error: True
+    weight_decay: 0.0 # 1.0e-4
+    lambda4tsm: 1.0e-5
+    optim: 'adam'
+    gt_mode: 'start' # 'periodicty' | 'start'
+    sim_mode: 'H-norm' # E-sigmoid | E-softmax | E-norm | C | O | H | H-norm | COS | COS-norm | COS-sig
+    feat_norm: 'None' # 'None' | 'min-max' | 'std' | 'l2'
+threshold: 0.8
+gpu:
+    n_gpus: 1
+    num_workers: 1

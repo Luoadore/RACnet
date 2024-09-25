@@ -1,0 +1,21 @@
+config_name: 'RACnet-test'
+dataset: repcount # 'countix' | 'ucfrep' | 'repcount'
+path:
+    root: 'path_to_folder' 
+    test_video_dir: 'test'
+    test_label: 'test.csv'
+    checkpoint: 'ckpt/best_racnet.pt'
+model:
+    num_stages: 4
+    num_layers: 10
+    num_f_maps: 64
+test:
+    batch_size: 1
+    sim_mode: 'H-norm'
+    feat_norm: 'None'
+    count_mode: 'scaling' #  #  #   'single''hier_scaling',
+vis: False
+prominence: 0.2
+gpu:
+    n_gpus: 1
+    num_workers: 1 

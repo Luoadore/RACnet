@@ -14,7 +14,8 @@ We rethink how a temporal self-similarity matrix (TSM) can be utilized for count
 ![RACnet](figures/RACnet.jpg)
 
 ### Main results on three datasets
-| Datasets  |  MAE⬇️  |  OBO⬆️  | 
+| Datasets  |  MAE⬇️  |  OBO⬆️  |
+| ----------|--------| -------| 
 | RepCountA | 0.4441 | 0.3933 |
 | UCFRep    | 0.5260 | 0.3714 |
 | Countix   | 0.5278 | 0.3924 |

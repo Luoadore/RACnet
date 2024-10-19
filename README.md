@@ -91,12 +91,14 @@ Please refer to the configs for train and test seperately.
 
 ## Citing RACnet
 ```
-  @article{luo2024rethinking,
+  @inproceedings{luo2024rethinking,
   title={Rethinking temporal self-similarity for repetitive action counting},
   author={Luo, Yanan and Yi, Jinhui and Farha, Yazan Abu and Wolter, Moritz and Gall, Juergen},
-  journal={arXiv preprint arXiv:2407.09431},
-  year={2024}
-  }
+  booktitle={2024 IEEE International Conference on Image Processing (ICIP)},
+  pages={2187--2193},
+  year={2024},
+  organization={IEEE}
+}
 ```
 
 ## License

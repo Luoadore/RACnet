@@ -106,6 +106,8 @@ Please refer to the configs for train and test seperately.
   python test.py configs/test_RACnet.py
 ```
 
+Inference on videos directly: see `test4video.py`.
+
 ## <img src="figures/raccoon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Citing RACnet
 ```
   @inproceedings{luo2024rethinking,

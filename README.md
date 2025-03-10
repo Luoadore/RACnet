@@ -1,7 +1,7 @@
 # <img src="figures/raccoon.png" style="vertical-align: -10px;" :height="40px" width="40px"> RACnet [ICIP 2024]
 
-[Jinhui Yi*](https://scholar.google.com/citations?user=kLZxzzUAAAAJ&hl=en),
 [Yanan Luo*](https://scholar.google.com/citations?user=yuDQY0YAAAAJ&hl=en),
+[Jinhui Yi*](https://scholar.google.com/citations?user=kLZxzzUAAAAJ&hl=en),
 [Yazan Abu Farha](https://scholar.google.com/citations?user=fSdpG-0AAAAJ&hl=en),
 [Moritz Wolter](https://scholar.google.de/citations?user=OLvO62sAAAAJ&hl=de),
 [Juergen Gall](https://pages.iai.uni-bonn.de/gall_juergen/)
